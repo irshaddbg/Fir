@@ -1,2 +1,0 @@
-# Fir
-My first repository 
