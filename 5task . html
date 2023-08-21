@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxmodel</title>
+    <style>
+        .container {
+            width: 600px;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid red;
+            overflow: hidden; /* Clear float */
+        }
+        .content1,
+        .content2,
+        .content3,
+        .content4 {
+            margin: 10px;
+            padding: 10px;
+        }
+        .content1,
+        .content2,
+        .content3 {
+            float: left;
+            width: calc(33.33% - 20px); /* Adjust for margins */
+            box-sizing: border-box; /* Include padding in width */
+            border: 2px solid black;
+            background: #ccc;
+        }
+        .content2 {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .content3 {
+            float: right;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .content4 {
+            clear: both; /* Clear float */
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content1">   <p>Hello, My name is irshad ahmad <BR></BR>. I am from madhubani bihar<BR></BR>
+.
+I am just 18 years old right now.<BR></BR>
+
+About my education so I have done my 10th from bihar board.<BR></BR>
+
+I am diong diploma in computer science 
+from maulana azad national urdu university hyderabad<BR></BR>
+ 
+
+My hobbies are playing cricket, listen music .<BR></BR>
+My strength I am always ready to do a different type of work in a different situation and also try to learn something from it.<BR></BR>
+Thank you that's all about me.<BR></BR> This is a small paragraph about myself.</p><BR></BR>
+
+ </div>
+        <div class="content2">DUA IS POWERFUL</div>
+        <div class="content3">NAMAZ IS PEACEFUL</div>
+        <div class="content4">ALLAH KNOWS EVERYTHING?</div>
+<div class="content2"><p>Hello, My name is irshad ahmad <BR></BR>. I am from madhubani bihar<BR></BR>
+.
+I am just 18 years old right now.<BR></BR>
+
+About my education so I have done my 10th from bihar board.<BR></BR>
+
+I am diong diploma in computer science 
+from maulana azad national urdu university hyderabad<BR></BR>
+ 
+
+My hobbies are playing cricket, listen music .<BR></BR>
+My strength I am always ready to do a different type of work in a different situation and also try to learn something from it.<BR></BR>
+Thank you that's all about me.<BR></BR> This is a small paragraph about myself.</p><BR></BR>
+?</div>
+        <div class="content3">NAMAZ IS PEACEFUL</div>
+        <div class="content2">DUA IS POWERFULL</div>
+
+    </div>
+</body>
+</html>
